@@ -26,3 +26,48 @@
     padding-left: 10px;
     margin-left: 50px;
 }
+.sourcePanel .formField{
+    background-color: #A7B245;
+    margin-bottom: 10px;
+    color: #ffffff;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    padding-left: 10px;
+    margin-top: 5px;
+    display: block;
+}
+
+.destinationPanel .formField{
+    background-color: Red;
+    margin-bottom: 10px;
+    color: #ffffff;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    padding-left: 10px;
+    margin-top: 5px;
+    display: block;
+}
+.destinationPanel .formField{
+    margin-top: 5px;
+    color: #ffffff;
+    height: 60px;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 16px;
+    display: block;
+    background: Red;
+}
+
+.destinationPanel .formField .helpText{
+    text-decoration: underline;
+    font-size: 12px;
+}
+
+/*.fieldRow {*/
+    /*display: -webkit-box;*/
+    /*display: -webkit-flex;*/
+    /*display: -ms-flexbox;*/
+    /*display:         flex;*/
+/*}*/
