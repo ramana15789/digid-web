@@ -28,7 +28,7 @@
 }
 
 .sourcePanel .formField {
-    background-color: #A7B245;
+    background-color: #0D60B2;
     margin-bottom: 10px;
     color: #ffffff;
     height: 30px;
@@ -39,27 +39,21 @@
     display: block;
 }
 
-.destinationPanel .formField {
-    background-color: Red;
-    margin-bottom: 10px;
-    color: #ffffff;
-    height: 30px;
-    line-height: 30px;
-    text-align: left;
-    padding-left: 10px;
-    margin-top: 5px;
-    display: block;
+.destinationPanel{
+    background-color: lightcyan;
 }
 
 .destinationPanel .formField {
     margin-top: 5px;
-    color: #ffffff;
+    margin-bottom: 10px;
+    line-height: 30px;
+    color: #000000;
     height: 60px;
     text-align: left;
     padding-left: 10px;
     font-size: 16px;
     display: block;
-    background: Red;
+    background-color: #ffffff;
 }
 
 .destinationPanel .formField .crossImage {
@@ -74,11 +68,13 @@
     width: 20px;
     height: 20px;
     vertical-align: top;
+    opacity: 0.6;
 }
 
 .destinationPanel .formField .helpText {
-    text-decoration: underline;
     font-size: 12px;
+    padding-bottom: -1px;
+    border-bottom: 1px dashed #ba0000;
 }
 
 /*.fieldRow {*/
