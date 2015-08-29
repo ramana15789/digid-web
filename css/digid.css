@@ -1,0 +1,28 @@
+.userDetail {
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: -3px;
+}
+
+.userDetailHeader {
+    font-size: 12px;
+    margin-top: 10px
+}
+
+.userProfilePicture {
+    width: 50px;
+    height: 50px;
+    margin-left: -3px;
+    float: left;
+    display: block
+}
+
+.userProfilePanel {
+    height: auto;
+    overflow: hidden
+}
+
+.userProfileName {
+    padding-left: 10px;
+    margin-left: 50px;
+}
