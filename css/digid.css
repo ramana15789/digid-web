@@ -26,7 +26,8 @@
     padding-left: 10px;
     margin-left: 50px;
 }
-.sourcePanel .formField{
+
+.sourcePanel .formField {
     background-color: #A7B245;
     margin-bottom: 10px;
     color: #ffffff;
@@ -38,7 +39,7 @@
     display: block;
 }
 
-.destinationPanel .formField{
+.destinationPanel .formField {
     background-color: Red;
     margin-bottom: 10px;
     color: #ffffff;
@@ -49,7 +50,8 @@
     margin-top: 5px;
     display: block;
 }
-.destinationPanel .formField{
+
+.destinationPanel .formField {
     margin-top: 5px;
     color: #ffffff;
     height: 60px;
@@ -60,14 +62,28 @@
     background: Red;
 }
 
-.destinationPanel .formField .helpText{
+.destinationPanel .formField .crossImage {
+    width: 10px;
+    height: 10px;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-right: -8px;
+}
+
+.destinationPanel .formField .dragImage {
+    width: 20px;
+    height: 20px;
+    vertical-align: top;
+}
+
+.destinationPanel .formField .helpText {
     text-decoration: underline;
     font-size: 12px;
 }
 
 /*.fieldRow {*/
-    /*display: -webkit-box;*/
-    /*display: -webkit-flex;*/
-    /*display: -ms-flexbox;*/
-    /*display:         flex;*/
+/*display: -webkit-box;*/
+/*display: -webkit-flex;*/
+/*display: -ms-flexbox;*/
+/*display:         flex;*/
 /*}*/
